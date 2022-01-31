@@ -1,0 +1,13 @@
+body {
+    background-color: aquamarine;
+    background-image: url("cedcoss.jpg");
+    
+}
+ td , th{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    /* background-color: burlywood; */
+}
+tr:nth-child(odd) {
+    background-color: cadetblue;
+}

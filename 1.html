@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      /* body {
+              background-color: tomato ;
+          } */
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        color: blue;
+        background-color: red;
+        border: 3px solid greenyellow;
+        border-radius: 20px;
+        padding: 10px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <marquee behaviour = "scroll", direction = "up">hello everyone</marquee> -->
+    <h1
+      style="
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: initial;
+        padding-left: 0px;
+        text-align: center;
+        border: 2px solid tomato;
+        border-radius: 20px;
+        margin: 10px;
+        display: inline;
+        margin-left: 500px;
+      "
+    >
+      hello world
+    </h1>
+    <div class="bgimg">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab veritatis
+      doloribus vel debitis delectus sit qui illum eos laborum natus impedit
+      perferendis est inventore rerum, unde dolorum eum explicabo vero hic illo
+      optio? Aliquam consectetur perferendis corporis ratione dolores quidem
+      labore nisi odit explicabo mollitia.
+    </div>
+    <!-- <strong>
+      this is strong
+      <mark>mark tag</mark>
+      <del>deleted tag</del>
+      <ins>inserted text</ins>
+      <abbr title = "world health organization">WHO</abbr>
+    </strong> -->
+    <link rel="icon" type="image/x-icon" href="cedcoss.jpg" />
+    <marquee
+      scrollamount="20"
+      behavior="alternate"
+      style="font-size: 50px; color: blue;"
+    >
+      CEDCOSSIAN
+    </marquee>
+    <!-- <img src="black.png" , width="200px" , height="200px" /> -->
+    <a href="https://www.google.com">google</a>
+    <table>
+      <tr>
+        <th>sr no.</th>
+        <th>st id</th>
+        <th>name</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>1908</td>
+        <td>madhur jaiswal</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1910</td>
+        <td>ritick rai</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>1911</td>
+        <td>avinash</td>
+      </tr>
+    </table>
+    <!-- <button
+      type="button"
+      onclick="document.getElementById('demo').innerHTML = Date() ;"
+    >
+      click me
+    </button> -->
+    <button type="button" onclick="myfunc()">click me</button>
+    <div id="demo">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+      excepturi expedita ut quia quod velit iusto modi! Consectetur, similique
+      animi?
+    </div>
+    <script>
+       function myfunc(){
+           dis = document.getElementById('demo') ;
+           if(dis.style.display == "None"){
+               dis.style.display = "Block" ;
+           }
+           else{
+               dis.style.display = "None" ;
+           }
+
+        }
+    </script>
+  </body>
+</html>
